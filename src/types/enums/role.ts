@@ -1,5 +1,4 @@
-
-enum Role {
+ enum Role {
     DEVELOPER = "developer",
     HR = "hr",
     COACH = "coach",
