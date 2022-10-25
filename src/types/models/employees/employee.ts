@@ -1,11 +1,12 @@
 
-import Role from "../../enums/role";
+import Role from "../../enums/Role";
 
 
 class Employee {
     static INDEX = 0;
     protected readonly id: string;
     protected createdDate: Date = new Date();
+
     emailAdress: string = ""
 
     constructor( protected name: string, protected roles: string[]) {

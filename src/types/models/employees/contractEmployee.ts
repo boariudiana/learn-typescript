@@ -1,6 +1,6 @@
 
 import FormatToString from "../../interfaces/FormatToString";
-import Employee from "./employee";
+import Employee from "./Employee";
 
 export default class ContractEmployee extends Employee implements FormatToString {
 

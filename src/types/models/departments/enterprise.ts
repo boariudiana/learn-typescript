@@ -1,7 +1,7 @@
-import Department from "./department";
-import ItDepartment from "./itDepartment";
-import DepartmentType from "../../enums/departmentType";
-import HRDepartment from "./hrDepartment";
+import Department from "./Department";
+import ItDepartment from "./ItDepartment";
+import DepartmentType from "../../enums/DepartmentType";
+import HRDepartment from "./HrDepartment";
 
 export default class Enterprise {
     private departments: Department[] = [];

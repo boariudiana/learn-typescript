@@ -1,4 +1,4 @@
-import Employee from "./employee"
+import Employee from "./Employee"
 
 export default class Trainee extends Employee {
 

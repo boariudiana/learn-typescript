@@ -2,7 +2,7 @@
 import moment from "moment"
 import FormatStringToMoment from "../../interfaces/FormatStingToMoment";
 import FormatToString from "../../interfaces/FormatToString"
-import Employee from "./employee"
+import Employee from "./Employee"
 
 
 export default class AssosiateEmployee extends Employee implements FormatToString, FormatStringToMoment {

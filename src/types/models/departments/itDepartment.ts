@@ -1,7 +1,7 @@
-import Department from "../departments/department";
-import Employee from "../employees/employee";
-import Role from "../../enums/role";
-import DepartmentNames from "../../enums/departmentsNames";
+import Department from "./Department";
+import Employee from "../employees/Employee";
+import Role from "../../enums/Role";
+import DepartmentNames from "../../enums/DepartmentsNames";
 
 export default class ItDepartment extends Department {
 
